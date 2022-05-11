@@ -1,0 +1,13 @@
+{
+  "name": "circleci-node18-test",
+  "private": true,
+  "description": "",
+  "version": "0.0.1",
+  "dependencies": {
+    "is-positive": "^3.1.0"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "echo 'hi'"
+  }
+}

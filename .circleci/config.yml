@@ -15,7 +15,7 @@ jobs:
     steps:
       - checkout
       - run:
-          command: sudo yarn global add npx
+          command: yarn global add npx
       - restore_cache:
           key: dependency-cache-{{ checksum "yarn.lock" }}
       - run:
